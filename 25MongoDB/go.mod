@@ -1,10 +1,9 @@
-module github.com/Pushpak-bhoite/build-api
+module github.com/Pushpak-bhoite/mongodb
 
 go 1.24.3
 
 require (
 	github.com/golang/snappy v1.0.0 // indirect
-	github.com/gorilla/mux v1.8.1 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
