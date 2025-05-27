@@ -2,6 +2,14 @@ go mod init mypointers
 
 pln
 
+<!-- to run air- -->
+echo 'export PATH="$HOME/go/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+<!-- to run air- -->
+echo 'export PATH="$HOME/go/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
 go mod tidy -( it brings in packages which are needed and also removes which are not necessary )
 
 go mod verify -( helps to verify go.sum hashes and verifies imports ) 
